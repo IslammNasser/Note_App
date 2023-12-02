@@ -2,16 +2,15 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MaterialApp(
-    home: MyApp(),
+    home: NoteApp(),
   ));
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class NoteApp extends StatelessWidget {
+  const NoteApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return  Container();
   }
 }
